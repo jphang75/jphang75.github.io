@@ -8,7 +8,7 @@ let elUSername = document.getElementById("namaPengguna");
 elUSername.addEventListener("keyup", transformUpperCase);
 
 function checkPasswordlength(){
-let password = document.getElementById("katalLaluan").value;
+let password = document.getElementById("kataLaluan").value;
 if(password.length < 5) {
 alert("Password must be more than 5 characters");
 } else {
