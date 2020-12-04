@@ -17,7 +17,7 @@ alert("Password must be more than 5 characters");
 }
 
 let elPassword = document.getElementById("kataLaluan");
-elPassword.onblur = checkPasswordlength;
+elPassword.onblur = checkPasswordLength;
 
 
 function checkPasswordLength2(txt){
