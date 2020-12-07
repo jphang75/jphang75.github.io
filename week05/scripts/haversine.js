@@ -15,7 +15,7 @@ function haversine(let1, lon1, let2, lon2) {
 
 if (typeof Number.prototype.toRad == "undefined") {
     Number.prototype.toRad = function () {
-        return this = * Math.PI / 180;
+        return this * Math.PI / 180;
             }
 }
 
