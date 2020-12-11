@@ -5,7 +5,7 @@ function getRandomUser() {
         if(this.readyState == 4 && this.status == 200) {
             let data = JSON.parse(this.response);
             let elFirstName = document.getElementById("firstName");
-            let ellastName = document.getElementById("lastName");
+            let elLastName = document.getElementById("lastName");
             let eljsonResult = document.getElementById("jsonResult");
             let elUserImage = document.getElementById("userImage");
             let elPhone = document.getElementById("phone");
