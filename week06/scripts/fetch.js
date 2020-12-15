@@ -40,7 +40,7 @@ function BookNow(guestName, guestEmail, guestPax) {
     }
     fetch(url, {
         method: 'Post',
-        body: JSON.stringify(body)
+        body: JSON.stringify(body),
         headers: {
             "Content-Type": "application/json"
         }
