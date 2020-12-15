@@ -45,6 +45,7 @@ function BookNow(guestName, guestEmail, guestPax) {
             "Content-Type": "application/json"
         }
     })
+    .then((response) => response.json())
     .then(json =>{
         //Do something with object
         //console.log(json.booking);
