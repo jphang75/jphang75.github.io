@@ -79,5 +79,5 @@ function DeleteBooking(id){
 let deleteBooking = document.getElementById("deleteBooking")
 deleteBooking.addEventListener("click", function(){
     let deleteId = document.getElementById("deleteId").value;
-    DeleteBooking(deleteId)
+    DeleteBooking(deleteId);
 });
