@@ -18,11 +18,11 @@ function GetBookings () {
 
             let row = bookingList.insertRow(bookingList.rows.length);
             row.insertCell(0).innerHTML = gId;
-            row.insertCell(0).innerHTML = gName;
-            row.insertCell(0).innerHTML = gEmail;
-            row.insertCell(0).innerHTML = gPax;
-            row.insertCell(0).innerHTML = gRemarks;
-            row.insertCell(0).innerHTML = "<button id'" + buttonId + "' class='btn btn-dange'>Delete</button>";
+            row.insertCell(1).innerHTML = gName;
+            row.insertCell(2).innerHTML = gEmail;
+            row.insertCell(3).innerHTML = gPax;
+            row.insertCell(4).innerHTML = gRemarks;
+            row.insertCell(5).innerHTML = "<button id='" + buttonId + "' class='btn btn-dange'>Delete</button>";
 
             bookingIds.push(buttonId);
 
