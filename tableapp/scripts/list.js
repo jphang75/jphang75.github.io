@@ -9,7 +9,7 @@ function GetBookings () {
         let bookingIds = [];
 
         //clear the table data
-        for (let k = bookingList.row.length - 1; k> 0; k--){
+        for (let k = bookingList.rows.length - 1; k> 0; k--){
             bookingList.deleteRow(k);
         }
         
