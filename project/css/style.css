@@ -1,15 +1,17 @@
 
 nav {
+    height: 40px !important;
+    width: 100%;
     background: #181918;
-    padding: 10px 0px;
+    
    }
 
-.nav li:hover a, .nav li:focus a {
-    color: #18bb18;
+ul.nav a:hover {
+    color: #18bb18 !important;
 }
 
-.nav li.active a {
-    color: #18bb18 ;
+ul.nav a:active {
+    color: #18bb18 !important;
 }
 
 .logo-image{
