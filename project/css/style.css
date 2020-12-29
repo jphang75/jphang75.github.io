@@ -34,6 +34,58 @@ nav.main-menu {
     text-transform: uppercase;
 }
 
+.main-menu ul>li>ul {
+    opacity: 0;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+    -webkit-transform-origin: 0 0 0;
+    transform-origin: 0 0 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 240px;
+    z-index: 999;
+    background: #fff;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+.main-menu>ul>li:hover>ul {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    visibility: visible;
+    opacity: 1;
+}
+.main-menu ul>li>ul>li {
+    margin: 0px;
+    position: relative;
+    display: block;
+}
+.main-menu ul>li>ul>li:hover>ul {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    visibility: visible;
+    opacity: 1;
+    left: 100%;
+    top: 10px;
+}
+.main-menu ul>li>ul>li>a {
+    background: none !important;
+}
+.mean-container .mean-nav {
+    margin-top: 0px;
+    position: absolute;
+    top: 100%;
+}
+.main-menu ul>li {
+    position: inherit;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
 .logo-image {
     width: 46px;
     height: 46px;
