@@ -3,10 +3,12 @@ nav {
     height: 70px !important;
     width: 100%;
     background: #181918;
-    font-size: large;
     }
 
-
+.navbar-brand
+    {
+      font-size: larger;
+    }
 
 .logo-image{
     width: 46px;
