@@ -1,16 +1,15 @@
 
 nav {
-    width: 100%;
-    height: 40px;
     background: #181918;
     padding: 10px 0px;
-    border-radius: 6px !important;
-    -moz-border-radius: 6px !important;
+   }
+
+.nav li:hover a, .nav li:focus a {
+    color: #18bb18;
 }
 
-.nav a{
-color: white !important;
-font-size: 1.8em !important;
+.nav li.active a {
+    color: #18bb18 ;
 }
 
 .logo-image{
