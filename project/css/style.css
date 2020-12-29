@@ -5,16 +5,16 @@ nav {
     background: #181918;
     }
 
-.nav a {
+.navbar-brand {
         color: white !important;
         font-size: 30px !important;
     }
 
-ul.nav a:hover {
+ul.navbar-brand a:hover {
     color: #18bb18 !important;
 }
 
-ul.nav a:active {
+ul.navbar-brand a:active {
     color: #18bb18 !important;
 }
 
