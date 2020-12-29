@@ -4,6 +4,14 @@
         min-height: 80px;
     }
 
+.navbar-brand
+    {
+      font-family: 'Lato', sans-serif;
+      color: white;
+      font-size: 100px;
+      margin: 0px;
+    }    
+
 .logo-image{
     width: 46px;
     height: 46px;
