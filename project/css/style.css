@@ -3,20 +3,10 @@ nav {
     height: 50px !important;
     width: 100%;
     background: #181918;
+    font-size: large;
     }
 
-.navbar-brand {
-        color: white !important;
-        font-size: 30px !important;
-    }
 
-ul.navbar-brand a:hover {
-    color: #18bb18 !important;
-}
-
-ul.navbar-brand a:active {
-    color: #18bb18 !important;
-}
 
 .logo-image{
     width: 46px;
