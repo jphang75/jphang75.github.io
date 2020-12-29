@@ -8,11 +8,11 @@
     {
       font-family: 'Lato', sans-serif;
       color: white;
-      font-size: 100px;
+      font-size: 100px; 
       margin: 0px;
     }    
 
-.logo-image{
+.logo-image {
     width: 46px;
     height: 46px;
     border-radius: 50%;
