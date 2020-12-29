@@ -5,9 +5,8 @@ nav {
     background: #181918;
     }
 
-.navbar-brand
-    {
-      font-size: larger;
+.navbar {
+        min-height: 80px;
     }
 
 .logo-image{
