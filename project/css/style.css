@@ -1,16 +1,17 @@
-
-
-.navbar {
-        min-height: 80px;
-    }
-
-.navbar-brand
-    {
-      font-family: 'Lato', sans-serif;
-      color: white;
-      font-size: 2em; 
-      margin: 0px;
-    }    
+/*--- header area ---*/
+.header {
+    background: #181918;
+    padding: 10px 0px;}
+.logo {
+    float: left;
+}
+nav.main-menu {
+    float: right;
+    margin-left: 0;
+}
+.menu-area-main li:hover a, .menu-area-main li:focus a {
+    color: #18bb18;
+}
 
 .logo-image {
     width: 46px;
