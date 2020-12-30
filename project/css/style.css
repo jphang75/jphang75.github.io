@@ -1234,3 +1234,27 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
     font-weight: 500;
     text-align: center;
 }
+.Coach-bg {
+    background-color: #18bb18;
+}
+.Coach-bg .abouttitle h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 45px;
+    padding: 40px 0;
+    font-weight: 500;
+    text-align: center;
+}
+.Contact-bg {
+    background-color: #18bb18;
+}
+.Contact-bg .abouttitle h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 45px;
+    padding: 40px 0;
+    font-weight: 500;
+    text-align: center;
+}
