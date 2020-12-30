@@ -254,6 +254,11 @@ a.readmore_bt {
     padding: 10px 0px;}
 .logo {
     float: left;
+    position: relative;
+    background: url(../images/logo.png);
+    width: 170px;
+    left: 15px;
+    background-size: contain;
 }
 nav.main-menu {
     float: right;
