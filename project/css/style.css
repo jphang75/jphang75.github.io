@@ -1131,6 +1131,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
 /*---Booking Form---*/
 .form-control {
+    font-size: 25px;
     border: #b1b0b0 solid 1px;
     margin-bottom: 37px;
     border-radius: inherit;
