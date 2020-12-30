@@ -28,15 +28,11 @@ window.addEventListener("load", function () {
     let userName = document.getElementById("userName").value;
     let userEmail = document.getElementById("userEmail").value;
     let userDate = document.getElementById("userDate").value;
-    let userSlot = document.getElementById("userSlot").value
-    .addEventListener('input', handleSelect);
+    let userSlot = document.getElementById("userSlot").value;
     let userRemarks = document.getElementById("userRemarks").value;
 
     BookNow(userName, userEmail, userDate, userSlot, userRemarks);
     });
 
-    function handleSelect (ev) {
-        let select = ev.target; //document.getElementById("userSlot");
-        console.log(select.value);
-    }
+  
 });
