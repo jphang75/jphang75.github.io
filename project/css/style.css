@@ -1130,7 +1130,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
     text-align: center;
 }
 /*---Booking Form---*/
-.form {
+.form-control {
     border: #b1b0b0 solid 1px;
     margin-bottom: 37px;
     border-radius: inherit;
@@ -1138,7 +1138,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
     color: #cfcece;
     border-radius: 40px;
 }
-.form:focus, .form:hover {
+.form-control:focus, .form-control:hover {
     border: #b1b0b0 solid 1px !important;
 }
 .textarea {
@@ -1150,7 +1150,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
     border-radius: 40px;
     padding-top: 73px;
 }
-.btn {
+.btn btn-primary {
     font-size: 26px;
     border: #000000 solid 2px;
     padding: 16px 70px;
@@ -1159,7 +1159,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
     border-radius: 40px;
     margin: 0 auto;
 }
-.btn:hover {
+.btn btn-primary:hover {
     background-color: #18bb18;
     border: #18bb18 solid 2px;
     color: #fff;
