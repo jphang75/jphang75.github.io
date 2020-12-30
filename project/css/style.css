@@ -344,7 +344,7 @@ nav.main-menu {
 }
 .top-menu-left li a {
     color: #ffffff;
-    font-size: 12px;
+    font-size: 30px;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -488,7 +488,7 @@ nav.main-menu {
 .main-menu ul > li a {
     padding: 7px 18px;
     line-height: 20px;
-    font-size: 16px;
+    font-size: 30px;
     display: block;
     font-weight: 500;
     color: #fff;
@@ -500,7 +500,7 @@ nav.main-menu {
 
 .main-menu ul>li .sub-down li a {
     color: #114c7d;
-    font-size: 15px;
+    font-size: 30px;
     text-transform: capitalize;
     font-weight: 300;
     padding: 12px 5px;
