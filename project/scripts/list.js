@@ -17,7 +17,7 @@ function GetBookings () {
             let gName = json.bookings[i].name;
             let gEmail = json.bookings[i].email;
             let gDate = json.bookings[i].date;
-            let gSlot = json.bookings[i].slot;
+            let gSlot = json.bookings[i].timeSlot;
             let gId = json.bookings[i].id;
             let gRemarks = json.bookings[i].remarks;
             let buttonId = "delete" + gId;
