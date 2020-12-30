@@ -5,7 +5,7 @@ function BookNow(guestName, guestEmail, guestDate, guestSlot, guestRemarks) {
             name: guestName,
             email: guestEmail,
             date: guestDate,
-            slot: guestSlot,
+            timeslot: guestSlot,
             remarks: guestRemarks
         }
     }
