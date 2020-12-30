@@ -1138,7 +1138,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
     color: #cfcece;
     border-radius: 40px;
 }
-.form:focus, .form-control:hover {
+.form:focus, .form:hover {
     border: #b1b0b0 solid 1px !important;
 }
 .textarea {
