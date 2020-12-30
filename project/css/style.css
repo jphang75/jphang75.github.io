@@ -1229,17 +1229,17 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
 }
 
 /*--- inner_page css ---*/
-.book_page .get_infor {
+.get_infor {
     margin-bottom: 90px;
 }
- .book_page .meet-me {
+.meet-me {
      background-color: #18bb18;
      margin-bottom: 90px;
 }
- .pdntp {
+.pdntp {
     padding-top: 135px;
 }
-.book_page .meet-me .abouttitle h2 {
+.meet-me .abouttitle h2 {
     color: #fff;
     text-transform: uppercase;
     font-size: 40px;
