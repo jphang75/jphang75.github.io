@@ -28,7 +28,7 @@ window.addEventListener("load", function () {
     let userName = document.getElementById("userName").value;
     let userEmail = document.getElementById("userEmail").value;
     let userDate = document.getElementById("userDate").value;
-    let userSlot = document.getElementById("userSlot").value;
+    let userSlot = document.getElementById("userSlot").options[0].text;
     let userRemarks = document.getElementById("userRemarks").value;
 
     BookNow(userName, userEmail, userDate, userSlot, userRemarks);
