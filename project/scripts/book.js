@@ -18,7 +18,7 @@ function BookNow(guestName, guestEmail, guestDate, guestSlot, guestRemarks) {
     })
     .then((response) => response.json())
     .then(json =>{
-        alert(json.booking.name + " added!");
+        alert(json.booking.timeSlot + " added!");
     });
 }
 
