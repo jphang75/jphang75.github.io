@@ -1028,21 +1028,7 @@ input[type="checkbox"] .styled:checked+label::after, input[type="radio"] .styled
  .cur {
      color: #120f0f;
 }
- .Contact {
-     background-color: #fff;
-     padding-top: 90px;
-     padding-bottom: 90px;
-}
- .Contact .titlepage3 {
-     padding-bottom: 50px;
-}
- .Contact .titlepage3 h2 {
-     font-size: 60px;
-     line-height: 50px;
-     color: #01080b;
-     padding-bottom: 0px;
-     font-weight: bold;
-}
+
  .footer {
      background-color: #032703;
      padding-bottom: 36px;
