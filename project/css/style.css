@@ -105,7 +105,7 @@ img {
     background-color: transparent !important;
     border: 2px solid #ddd;
     padding: 12px 40px;
-    font-size: 16px;
+    font-size: 20px;
 }
 .lead {
     font-size: 18px;
@@ -216,17 +216,13 @@ button {
     color: #fff;
     padding: 10px 60px 10px 60px;
     float: left;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     border: solid #120f0f 5px;
     border-radius: 0;
     margin-right: 30px;
 }
-a.readmore_bt {
-    color: #fff;
-    font-weight: 300;
-    text-decoration: underline !important;
-}
+
 .main_bt:hover, .main_bt:focus {
     background: #18bb18;
     border: solid #18bb18 5px;
@@ -351,106 +347,6 @@ nav.main-menu {
 .top-menu-left li a:hover {
     color: #38c8a8;
 }
-.right-dropdown-language {
-    float: right;
-    margin-left: 12px;
-}
-.dropdown-bar .dropdown-link {
-    position: absolute;
-    z-index: 1009;
-    top: 40px;
-    left: 0;
-    right: auto;
-    min-width: 50px;
-    padding: 15px;
-    background: #ffffff;
-    list-style: none;
-    border: 2px solid #38c8a8;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    -webkit-transition: opacity 0.2s ease 0s, visibility 0.2s linear 0s;
-    -o-transition: opacity 0.2s ease 0s, visibility 0.2s linear 0s;
-    transition: opacity 0.2s ease 0s, visibility 0.2s linear 0s;
-    text-align: left;
-}
-.dropdown-bar:hover .dropdown-link {
-    opacity: 1;
-    visibility: visible;
-    top: 25px;
-}
-.dropdown-bar.right-dropdown-language>a::after {
-    font-family: 'FontAwesome';
-    content: "\f107";
-    text-decoration: none;
-    padding-left: 4px;
-    color: #ffffff;
-}
-.right-dropdown-language>a {
-    line-height: 10px;
-    padding: 5px 5px;
-    cursor: pointer;
-}
-.dropdown-bar .dropdown-link li a {
-    color: #111111;
-    display: block;
-    font-size: 12px;
-    line-height: 15px;
-    padding: 5px 0;
-}
-.dropdown-bar .dropdown-link li a:hover {
-    color: #38c8a8;
-}
-.dropdown-bar .dropdown-link li a img {
-    margin-right: 7px;
-}
-.dropdown-bar .dropdown-link li.active {
-    font-weight: bold;
-}
-.right-dropdown-language .dropdown-link {
-    min-width: 100px;
-    padding: 7px 10px;
-    color: #111111;
-}
-.dropdown-bar {
-    position: relative;
-    padding: 0 5px;
-    font-size: 13px;
-}
-.dropdown-bar .dropdown-link.right-sd {
-    left: auto;
-    right: 0;
-}
-.right-dropdown-currency {
-    float: right;
-    margin-left: 12px;
-}
-.dropdown-bar.right-dropdown-currency>a::after {
-    font-family: 'FontAwesome';
-    content: "\f107";
-    text-decoration: none;
-    padding-left: 4px;
-    color: #ffffff;
-}
-.right-dropdown-currency>a {
-    line-height: 10px;
-    padding: 5px 5px;
-    cursor: pointer;
-    color: #ffffff;
-}
-.right-dropdown-currency .dropdown-link {
-    min-width: 100px;
-    padding: 7px 10px;
-    color: #111111;
-}
-.right-dropdown-currency .dropdown-link {
-    min-width: 55px;
-    padding: 7px 10px;
-}
-.right-dropdown-currency .dropdown-link li a span.symbol {
-    margin-right: 7px;
-}
 
 .btn-template-outlined {
     background: #111111;
@@ -472,7 +368,6 @@ nav.main-menu {
 .middle-area {
     padding: 30px 0px;
 }
-
 
 .main-menu {
     text-align: center;
